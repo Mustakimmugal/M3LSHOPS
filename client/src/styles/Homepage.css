@@ -1,0 +1,109 @@
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 ,h4{
+  color: black;
+  font-family: "Playfair Display", serif;
+  text-shadow: 7px 7px 6px black;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+  box-shadow: 7px 7px 6px black;
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px black;
+  padding-inline: 5px;
+  margin-right: 2px;
+}
+
+.home-page button:hover{
+  border: 0px;
+  color: white;
+  background: rgb(255,136,0);
+  background: linear-gradient(90deg, rgba(255,136,0,1) 45%, rgba(255,0,26,1) 80%, rgba(255,9,9,1) 100%);
+  transform: scale(0.9);
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+}
+
+.home-page .card-text {
+  color: black;
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 200px !important;
+}  
+
+
+
+/* ------ filters ----- */
+.filters h4 {
+  margin-top: 100px;
+  color: black !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 10px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 5px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background: rgb(197,73,231);
+background: linear-gradient(90deg, rgba(197,73,231,0.7679446778711485) 17%, rgba(0,255,248,0.7791491596638656) 100%);
+  width: 50%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  color: black;
+}
+
+.loadmore_btn {
+  color: rgb(0, 109, 128);
+  font-weight: bold;
+  font-size: 20px !important;
+  box-sizing: 20px;
+  box-shadow: 0px 0px 0px white;
+  width: 50%;
+} 
+@media (max-width:1199px) {
+  .home-page,.slide_home{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

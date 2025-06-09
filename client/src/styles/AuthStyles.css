@@ -1,0 +1,74 @@
+/* ---- register page -----  */
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background: rgb(146,98,149);
+background: linear-gradient(90deg, rgba(146,98,149,1) 1%, rgba(142,172,244,1) 39%, rgba(135,168,213,1) 48%, rgba(163,179,221,1) 59%, rgba(13,200,219,1) 100%);
+}
+
+.form-container form {
+  box-sizing: rgba(0,0,0,0,35) 0px 5px 15px;
+  padding: 20px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgb(22, 21, 22);
+  border-radius: 10px;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: none;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 5px 5px 5px rgb(29, 24, 24);
+}
+
+.form-container form button {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  box-shadow: 5px 5px 5px black;
+  justify-content: center;
+  
+}
+
+.form-container form button:hover {
+  border: 1px solid white;
+  background: rgb(12,4,138);
+background: linear-gradient(90deg, rgba(12,4,138,1) 19%, rgba(44,224,254,1) 90%);
+  transform: scale(1.05);
+}
+
+.forgot-btn {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 250px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.forgot-btn:hover {
+  border: 1px solid white;
+  background: rgb(12,4,138);
+background: linear-gradient(90deg, rgba(12,4,138,1) 19%, rgba(44,224,254,1) 90%);
+
+}

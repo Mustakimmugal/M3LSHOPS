@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/*--- navbar css ---- */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px black;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+ 
+  background: rgb(81,133,251);
+background: linear-gradient(90deg, rgba(81,133,251,1) 1%, rgba(196,99,179,1) 63%);
+
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(255, 153, 0);
+  position: relative;
+  
+}
+.navbar-brand span{
+  font-family: 'Clicker Script', cursive;
+  font-size: 45px;
+  color: aqua;
+}
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 10px;
+}
+.search-form button {
+  background: rgb(197,73,231);
+background: linear-gradient(90deg, rgba(197,73,231,0.7679446778711485) 17%, rgba(0,255,248,0.7791491596638656) 100%);
+  border-radius: 5px;
+  color: white;
+  border: 0px;
+}
+.search-form button:hover{
+  background: rgb(255,136,0);
+  background: linear-gradient(90deg, rgba(255,136,0,1) 45%, rgba(255,0,26,1) 80%, rgba(255,9,9,1) 100%);
+  transform: scale(0.9);
+  border: 0px;
+}
+
+/* ---home-page----*/
+
+
+/*---footer---*/
+
+.footer{
+  background: rgb(101,100,105);
+background: linear-gradient(90deg, rgba(101,100,105,1) 1%, rgba(27,28,28,1) 72%);
+color: #fff;
+padding: 10px;
+}
+.footer h1{
+  text-align: center;
+  font-size: 20px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: #e2d2d2;
+  border-bottom: 1px solid white;
+}
+
+/* ------ page not found css ----- */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ----- contact us ------ */
+.contactus {
+  margin-top: 50px;
+  padding-top: 10px;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_img{
+  width: 100%;
+}
+
+
+/*--- About Us --- */
+.about_us{
+  padding: 0px;
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  
+}
+.abt_ph h1{
+  text-transform: underline;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-shadow: 4px 4px 4px rgb(80, 77, 77);
+}
+.abt_ph p{
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 4px 4px 4px black;
+  color: black;
+}
+
+/* --- policy --- */
+.policy{
+  padding-top: 30px;
+  margin-top: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.policy_1 img{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+}
+.policy h6{
+  padding-left: 0px;
+}
+.policy p{
+  padding-left: 30px;
+}
+.policy h5{
+  display: flex;
+  align-items: center;
+}
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* --- dashboad ---- */
+
+.dashboard{
+  margin-top: 100px !important;
+  background: rgb(146,98,149);
+background: linear-gradient(90deg, rgba(146,98,149,1) 1%, rgba(142,172,244,1) 39%, rgba(135,168,213,1) 48%, rgba(163,179,221,1) 59%, rgba(13,200,219,1) 100%);
+}
+  
+.dashboard-menu h4 {
+  background: rgb(255,136,0);
+  background: linear-gradient(90deg, rgba(255,136,0,1) 45%, rgba(255,0,26,1) 80%, rgba(255,9,9,1) 100%);
+  color: white;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+.dashboard-h h3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
