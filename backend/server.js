@@ -37,7 +37,7 @@ app.get("/", (req, res) => {
 });
 
 //PORT
-const PORT = https://m3lshops-client.onrender.com;
+const PORT = process.env.PORT || 5000;
 
 //run listen
 app.listen(PORT, () => {
