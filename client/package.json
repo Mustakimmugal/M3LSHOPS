@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "proxy": "https://m3lshops-backend.onrender.comhttps://m3lshops-backend.onrender.com",
+  "proxy": "https://m3lshops-backend.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
